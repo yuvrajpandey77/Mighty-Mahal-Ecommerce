@@ -1,3 +1,3 @@
-export const BACKEND_URL = "http://localhost:3000/api/v1/auth"
-export const PRODUCT_URL = "http://localhost:3000/api/v1/product"
-export const JWT_SECRET = "fdfsdfshdjkfdfsdffs"
+export const BACKEND_URL = import.meta.env.VITE_BACKEND_URL
+export const PRODUCT_URL = import.meta.env.VITE_PRODUCT_URL
+export const JWT_SECRET = import.meta.env.VITE_JWT_SECRET

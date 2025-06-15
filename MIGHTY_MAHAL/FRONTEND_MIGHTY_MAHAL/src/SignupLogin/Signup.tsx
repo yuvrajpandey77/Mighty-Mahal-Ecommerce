@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import axios from "axios";
 import { BACKEND_URL } from "../config";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 
 const Signup = () => {
@@ -97,9 +97,9 @@ const Signup = () => {
                 </button>
                 <div className="text-sm font-medium text-[#3d8066]">
                     Already registered?{" "}
-                    <a href={"/login"} className="text-blue-700 hover:underline dark:text-blue-500">
+                    <Link to="/login" className="text-blue-700 hover:underline dark:text-blue-500">
                         Login
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>
