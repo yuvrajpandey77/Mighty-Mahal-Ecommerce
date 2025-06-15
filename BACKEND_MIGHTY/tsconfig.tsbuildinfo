@@ -1,0 +1,1 @@
+{"root":["./src/LoginAuth.ts","./src/SignupAuth.ts","./src/config.ts","./src/db.ts","./src/index.ts","./src/productRoutes.ts","./src/userInfo.ts","./src/Middlewares/authenticationmiddleware.ts"],"version":"5.8.3"}
