@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import axios from "axios";
 import { PRODUCT_URL } from "../config";
 import { useNavigate } from "react-router-dom";

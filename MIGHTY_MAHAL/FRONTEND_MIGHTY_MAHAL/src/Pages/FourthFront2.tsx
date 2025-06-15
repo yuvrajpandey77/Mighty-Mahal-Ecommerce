@@ -1,10 +1,6 @@
 import ProductCard from "../Ui/ProductCard";
-interface SecondFrontProps {
-    title?: string;
-    price?: number;
-}
 
-export default function FourthFront2(props: SecondFrontProps) {
+const FourthFront2 = () => {
     return (
         <div >
              
@@ -46,3 +42,5 @@ export default function FourthFront2(props: SecondFrontProps) {
         </div>
     )
 }
+
+export default FourthFront2;

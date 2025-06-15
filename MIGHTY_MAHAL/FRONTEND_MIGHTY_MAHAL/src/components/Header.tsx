@@ -1,11 +1,10 @@
 import { Button } from '../Ui/Button'
 import CartIcon from '../Icons/CartIcon'
-import UserIcon from '../Icons/UserIcon'
 import CompanyLogo from '../Icons/CompanyLogo'
 import { InputBox } from '../Ui/InputBox'
 import SearchIcon from '../Icons/Search'
 import { useNavigate } from 'react-router-dom';
-import Plusicon from '../Icons/Plusicon';
+
 export default function Header() {
     const navigate = useNavigate();
     return (

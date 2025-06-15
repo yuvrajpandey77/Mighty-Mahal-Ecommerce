@@ -1,6 +1,6 @@
 import { Button } from "../Ui/Button";
 
-import { useNavigate } from "react-router-dom";
+
 interface ProductCardProps {
     title: string;
     price: number;
