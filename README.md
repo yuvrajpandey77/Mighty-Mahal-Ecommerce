@@ -55,11 +55,7 @@ Edit
 
 
    📬 Contact
-Made by [Your Name] – feel free to reach out if you have suggestions or ideas!
+Made by Yuvraj Pandey – feel free to reach out if you have suggestions or ideas!
+My LinkedIn - https://www.linkedin.com/in/yuvraj-pandey-62729222a/
 
-vbnet
-Copy
-Edit
-
-Let me know if you want me to generate the `.env.example` or add screenshots or badges to your README. You can also [preview a styled version of this file](f) or [get help writing documentation for each component](f).
 
