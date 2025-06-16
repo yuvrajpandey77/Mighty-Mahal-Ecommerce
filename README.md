@@ -1,4 +1,4 @@
-# Mighty Mahal – E-commerce Clone (Unfinished)
+# Mighty Mahal – E-commerce Site (Unfinished)
 
 🚧 **Project Status:** Unfinished / Work in Progress  
 🔗 **Live Demo:** [https://frontend-mighty-mahal.vercel.app/](https://frontend-mighty-mahal.vercel.app/)
