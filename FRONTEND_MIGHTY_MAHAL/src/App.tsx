@@ -46,37 +46,37 @@ function App() {
         <Route
           path='/shop'
           element={
-            <ProtectedRoute>
+            // <ProtectedRoute>
               <Shop />
-            </ProtectedRoute>
+            // </ProtectedRoute>
           }
         />
         <Route
           path='/'
           element={
-            localStorage.getItem('token') ? (
+            // localStorage.getItem('token') ? (
               <Navigate to='/dashboard' replace />
-            ) : (
-              <Navigate to='/signup' replace />
-            )
-          }
+          //   ) : (
+          //     <Navigate to='/signup' replace />
+          //   )
+           }
         />
         <Route
           path='/id/:id'
           element={
-            <ProtectedRoute>
+            // <ProtectedRoute>
               <Product />
-            </ProtectedRoute>
+            /* </ProtectedRoute> */
           }
         />
         <Route
           path='*'
           element={
-            localStorage.getItem('token') ? (
+            // localStorage.getItem('token') ? (
               <Navigate to='/dashboard' replace />
-            ) : (
-              <Navigate to='/login' replace />
-            )
+            // ) : (
+            //   <Navigate to='/login' replace />
+            // )
           }
         />
       </Routes>
